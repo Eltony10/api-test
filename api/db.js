@@ -2,8 +2,8 @@ const path = require('path');
 
 // Mysql credentials
 module.exports.mysql = {
-    socketPath: '/cloudsql/nth-rarity-255610:europe-west2:assignment2',
+    socketPath: '/cloudsql/emerald-griffin-256310:europe-west2:up828398sql',
     user: 'root',
     password: 'root',
-    database: 'assignment2',
+    database: 'up828398sql',
 };

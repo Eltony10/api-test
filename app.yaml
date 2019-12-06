@@ -4,4 +4,4 @@ env_variables:
   DB_USER: root
   DB_PASS: root
   DB_NAME: register
-  CLOUD_SQL_CONNECTION_NAME: nth-rarity-255610:europe-west2:assignment2
+  CLOUD_SQL_CONNECTION_NAME: emerald-griffin-256310:europe-west2:up828398sql

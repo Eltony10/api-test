@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "setup": "mysql -u root < db.sql"
+    "setup": "mysql -u root -proot < db.sql"
   },
   "author": "up817852",
   "license": "ISC",
