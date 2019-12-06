@@ -39,6 +39,6 @@ module.exports.delete = async (id) => {
 // Method to update a named registers value
 module.exports.put = async (id, newVal) => {
   let con = await connection;
-  await con.query("UPDATE register SET reg_number = ? WHERE reg_name = ? ",[newVal, id])
+  await con.query("UPDATE register SET id_number = ? WHERE id_name = ? ",[newVal, id])
   return newVal
 };
